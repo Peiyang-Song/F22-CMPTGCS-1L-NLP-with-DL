@@ -1,3 +1,11 @@
+
+
+# Week 2
+- [ ] 1. Continue to find spots of interest
+- [ ] 2. More info on basic idea 1
+- [ ] 3. Listen to Prof. Lei Li's lecture and contact him for further insights from me/ suggestions from him/ ...
+- [ ] 4. Study the recommended NLP textbook 
+
 # Week 1
 - [ ] 1. Search for information on both CV and NLP
       For CV: Have developed a full plan with a certain level of detail
@@ -10,5 +18,3 @@
       Basic idea 1: Subject mis-position outside grammar
       ...
 - [ ] 6. Research more on the Basic idea 1
-
-# Week 2
