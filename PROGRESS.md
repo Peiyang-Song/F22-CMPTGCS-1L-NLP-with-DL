@@ -1,10 +1,16 @@
 
 
+# Week 3
+- [ ] 1. Study the research paper NLP from Scratch
+- [ ] 2. Re-code it
+
 # Week 2
 - [ ] 1. Continue to find spots of interest
 - [ ] 2. More info on basic idea 1
 - [ ] 3. Listen to Prof. Lei Li's lecture and contact him for further insights from me/ suggestions from him/ ...
 - [ ] 4. Study the recommended NLP textbook 
+- [ ] 5. Determine TRUE first step to code: 2008 NLP from Scratch （incorporating Deep Learning with NLP）
+- [ ] 6. Attend CRML Summit and learn relavent cutting-edge topics
 
 # Week 1
 - [ ] 1. Search for information on both CV and NLP
