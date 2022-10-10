@@ -1,4 +1,6 @@
+# Mandarin NLP Project
 
+* NLP Project incorporting machine learning, focused on mainly (but not necesarily restricted to) Mandarin
 
 # Week 3
 - [ ] 1. Study the research paper NLP from Scratch
