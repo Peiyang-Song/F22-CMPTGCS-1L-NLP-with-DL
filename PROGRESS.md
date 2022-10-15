@@ -1,10 +1,15 @@
 # Mandarin NLP Project
 
-* NLP Project incorporting machine learning, focused on mainly (but not necesarily restricted to) Mandarin
+* NLP Project incorporating machine learning, focused on mainly (but not necesarily restricted to) Mandarin.
+* For more info towards this project, please find it under README.md.
+
+# Week 4
+- [ ] 4. Implement it..
 
 # Week 3
 - [ ] 1. Study the research paper NLP from Scratch
-- [ ] 2. Re-code it
+- [ ] 2. Study the research paper Deep Learning for Efficient Discriminative Parsing
+- [ ] 3. Try to implement it
 
 # Week 2
 - [ ] 1. Continue to find spots of interest
