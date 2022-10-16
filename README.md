@@ -10,7 +10,7 @@ This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Comp
 3. Textbook - NLP textbook.pdf: a classical textbook on NLP, by Dr. Dan Jurafsky
 4. Agenda - NLPCC2022 handbook.pdf: an agenda of NLPCC2022, an influential conference in the field of Mandarin NLP
 5. Publication - NLP from Scratch.pdf: Groundbreaking work on incorporating DL into NLP, by Dr. Ronan Collobert
-6. Publication - 2011 Parsing Aistats: Tightly related work with NLP from Scratch, by Dr. Ronan Collobert
+6. Publication - Deep Learning for Efficient Discriminative Parsing.pdf: Tightly related work with NLP from Scratch, by Dr. Ronan Collobert
 7. Benchmark - Chunking CHK.htm: Benchmark on chunking.
 8. Benchmark - Name Entity Recognition NER.htm: Benchmark on Name Entity Recognition.
 9. Benchmark - Part of Speech POS.pdf: Benchmark on Part of Speech.
