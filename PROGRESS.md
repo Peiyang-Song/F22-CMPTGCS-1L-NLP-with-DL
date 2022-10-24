@@ -3,8 +3,12 @@
 * NLP Project incorporating machine learning, focused on mainly (but not necesarily restricted to) Mandarin.
 * For more info towards this project, please find it under README.md.
 
+# Week 5
+- [ ] 1. Try to understand at least on a basic level the ML methods behind it
+- [ ] 2. Fully study and understand the NLP part
+
 # Week 4
-- [ ] 4. Implement it..
+- [ ] 1. Implement it..
 
 # Week 3
 - [ ] 1. Study the research paper NLP from Scratch
