@@ -12,7 +12,7 @@ This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Comp
 5. Publication - NLP from Scratch.pdf: Groundbreaking work on incorporating DL into NLP, by Dr. Ronan Collobert
 6. Publication - Deep Learning for Efficient Discriminative Parsing.pdf: Tightly related work with NLP from Scratch, by Dr. Ronan Collobert
 7. Benchmark - Chunking CHK.htm: Benchmark on chunking.
-8. Benchmark - Name Entity Recognition NER.htm: Benchmark on Name Entity Recognition.
+8. Benchmark - Name Entity Recognition NER.htm: Benchmark on Named Entity Recognition.
 9. Benchmark - Part of Speech POS.pdf: Benchmark on Part of Speech.
 10. Benchmark - Semantic Role Labeling SRL.htm: Benchmark on Semantic Role Labeling.
 11. Benchmark - Syntactic Parsing PSG.pdf: Benchmark on Syntactic Parsing.
