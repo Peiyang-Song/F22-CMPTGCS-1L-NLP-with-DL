@@ -16,6 +16,7 @@ This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Comp
 9. Benchmark - Part of Speech POS.pdf: Benchmark on Part-of-Speech Tagging.
 10. Benchmark - Semantic Role Labeling SRL.htm: Benchmark on Semantic Role Labeling.
 11. Benchmark - Syntactic Parsing PSG.pdf: Benchmark on Syntactic Parsing.
+12. NLP from Scratch_Peiyang Song.pptx: Slides for my third presentation.
 
 ## Acknowledgement
 
