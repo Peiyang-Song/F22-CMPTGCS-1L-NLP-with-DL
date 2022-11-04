@@ -33,3 +33,7 @@ Multilingual Natural Language Processing, Tagging, Deep Learning, Multi-layer Ne
 This project is supported by the CMPTGCS 1L class in Fall 2022, advised by Prof. Phill Conrad at UCSB CCS. The overall direction of this project, the recommended NLP textbook, and many practical skills are all thanks to his precious guidance. Also, the author wants to thank Prof. Lei Li at UCSB CoE CS for professionally introducing many NLP resources and cutting-edge views, paving the road for the author to develop his specific project idea.
 
 ## Reference
+
+1. Dr. Dan Jurafsky and Dr. James H. Martin, Speech and Language Processing (3rd ed. draft), NLP Research Group, Stanford University.
+2. Agenda and proceedings, *11th CCF International Conference on Natural Language Processing and Chinese Computing* (NLPCC2022).
+3. Dr. Ronan Collobert, “Natural Language Processing (almost) from Scratch,” *Journal of machine learning research : JMLR.* 12.ARTICLE (2011): n. pag. Print.
