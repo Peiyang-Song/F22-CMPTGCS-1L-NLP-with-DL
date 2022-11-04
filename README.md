@@ -1,7 +1,15 @@
 # Peiyang-NLP-Project
 ## Brief introduction to this project
 
-This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Computing in his first year. In view of his bilingual nature, this project focuses at least a little more on Mandarin NLP, but not necessarily restricted to that. This project is based on the groundbreaking publication *NLP from Scratch* by Dr. Ronan Collobert, but again, not restricted to that.
+This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Computing in his first year. In view of his multilingual nature, this project focuses at least a little more on Mandarin NLP, but not necessarily restricted to that. This project is based on the groundbreaking publication *NLP from Scratch* by Dr. Ronan Collobert, but again, not restricted to that.
+
+## Main topic of this project
+
+This project aims to address multiple NLP tagging tasks with limited data (i.e., natural language) input with the help of multi-layer neural networks in Deep Learning.
+
+## Keywords
+
+Multilingual Natural Language Processing, Tagging, Deep Learning, Multi-layer Neural Networks, Part-Of-Speech Tagging, Chunking, Named Entity Recognition, Semantic Role Labeling, Benchmark System, Multi-task Handling.
 
 ## Brief introduction to the files in this project
 
@@ -12,12 +20,16 @@ This project is conducted by Peiyang Song (he/him/his), an undergrad of CCS Comp
 5. Publication - NLP from Scratch.pdf: Groundbreaking work on incorporating DL into NLP, by Dr. Ronan Collobert
 6. Publication - Deep Learning for Efficient Discriminative Parsing.pdf: Tightly related work with NLP from Scratch, by Dr. Ronan Collobert
 7. Benchmark - Chunking CHK.htm: Benchmark on chunking.
-8. Benchmark - Name Entity Recognition NER.htm: Benchmark on Named Entity Recognition.
+8. Benchmark - Named Entity Recognition NER.htm: Benchmark on Named Entity Recognition.
 9. Benchmark - Part of Speech POS.pdf: Benchmark on Part-of-Speech Tagging.
 10. Benchmark - Semantic Role Labeling SRL.htm: Benchmark on Semantic Role Labeling.
 11. Benchmark - Syntactic Parsing PSG.pdf: Benchmark on Syntactic Parsing.
 12. NLP from Scratch_Peiyang Song.pptx: Slides for my third presentation.
 
+## Instruction for codes and applications
+
 ## Acknowledgement
 
-This project is supported by the CMPTGCS 1L class in Fall 2022, advised by Prof. Phill Conrad at UCSB CCS. The overall direction of this project, the recommended NLP textbook, and many practical skills are all thanks to his precious guidance. Also, the author wants to thank Prof. Lei Li at UCSB CoE for professionally introducing many NLP resources and cutting-edge views, paving the road for the author to develop his specific project idea.
+This project is supported by the CMPTGCS 1L class in Fall 2022, advised by Prof. Phill Conrad at UCSB CCS. The overall direction of this project, the recommended NLP textbook, and many practical skills are all thanks to his precious guidance. Also, the author wants to thank Prof. Lei Li at UCSB CoE CS for professionally introducing many NLP resources and cutting-edge views, paving the road for the author to develop his specific project idea.
+
+## Reference
