@@ -1,10 +1,16 @@
 # Peiyang NLP Project
 
-* NLP Project incorporating deep learning, focused on mainly (but not necesarily restricted to) Mandarin.
-* For more info towards this project, please find it under README.md.
+* This project develops a unified model for multiple tasks in the field of Natural Language Processing, with a specific concentration in tagging tasks. 
+* Based on a multi-layer neural network supported by an end-to-end fassion, trained by data from wikipedia for two months, this project performs better than all the traditional single-task algorithms in Part-Of-Speech Tagging, Chunking, Named Entity Recognition, and Semantic Role Labeling. 
+* For more information towards this project, please find it under README.md.
+
+## Week 10
+- [ ] 1. Do the fourth (final) presentation
+- [ ] 2. Develop a rough plan for W23 1L
 
 ## Week 9
-- [ ] 1. Prepare for final presentation
+- [ ] 1. Prepare for the fourth (final) presentation
+- [ ] 2. Wrap up all the things in the project
 
 ## Week 8
 - [ ] 1. Continue proceeding with both the textbook and the Stanford course
@@ -16,10 +22,11 @@
 - [ ] 1. Continue proceeding with both the textbook and the Stanford course
 
 ## Week 6
-- [ ] 1. Give my third presentation, summarizing all parts related to NLP and several basis about DL
+- [ ] 1. Give my third presentation
+- [ ] 2. Complete all parts related to NLP and several basis about DL
 - [ ] 2. Study basic machine learning knowledge
 - [ ] 3. Start studying the textbook Neural Networks and Deep Learning
-- [ ] 4. Start studying the NLP with DL course at Stanford Univ.
+- [ ] 4. Start studying the NLP with DL course at Stanford University
 - [ ] 5. Attend CRML Distinguished talk (postponed due to lecturer wellness)
 - [ ] 6. Attend RACA-CON
 
@@ -29,6 +36,7 @@
 
 ## Week 4
 - [ ] 1. Implement it..
+- [ ] 2. Give my second presentation
 
 ## Week 3
 - [ ] 1. Study the research paper NLP from Scratch
@@ -42,6 +50,7 @@
 - [ ] 4. Study the recommended NLP textbook 
 - [ ] 5. Determine TRUE first step to code: 2008 NLP from Scratch （incorporating Deep Learning with NLP）
 - [ ] 6. Attend CRML Summit and learn relavent cutting-edge topics
+- [ ] 7. Give my first presentation
 
 ## Week 1
 - [ ] 1. Search for information on both CV and NLP
