@@ -1,7 +1,16 @@
-# Mandarin NLP Project
+# Peiyang NLP Project
 
 * NLP Project incorporating deep learning, focused on mainly (but not necesarily restricted to) Mandarin.
 * For more info towards this project, please find it under README.md.
+
+## Week 9
+- [ ] 1. Prepare for final presentation
+
+## Week 8
+- [ ] 1. Continue proceeding with both the textbook and the Stanford course
+- [ ] 2. Study Python courses supported by Prof. Richert Wang
+- [ ] 3. Complete the construction of this git repo
+- [ ] 4. Finalize the codes and master the DL part
 
 ## Week 7
 - [ ] 1. Continue proceeding with both the textbook and the Stanford course
