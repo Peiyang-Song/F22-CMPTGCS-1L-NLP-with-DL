@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>CoNLL-2005 Shared Task: Semantic Role Labeling</title>
+  <style>
+       body
+       {
+          margin-left:.6in;
+          margin-right:.5in;
+       }
+  </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+<p>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tbody>
+    <tr>
+      <td bgcolor="#00ccff" valign="top">&nbsp; </td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<p> </p>
+<h1><small><small><small><small><b><big><big><big>CoNLL-2004 and
+CoNLL-2005 Shared Tasks</big></big></big></b></small></small></small></small><big><big><b><br>
+</b></big></big></h1>
+<h1>Semantic Role Labeling<br>
+</h1>
+<hr noshade="noshade" size="1">
+<div style="text-align: center;"><span style="font-weight: bold;">Introduction
+&nbsp;&nbsp; </span>
+<a href="faq.html">F.A.Q.</a><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; </span>
+<a href="refs.html">References</a><span
+ style="font-weight: bold;">&nbsp;&nbsp;&nbsp; </span><a
+ href="http://www.cnts.ua.ac.be/conll">CoNLL Conferences</a><span
+ style="font-weight: bold;"><br>
+</span>
+<p> </p>
+<!--  Section  --><!--
+<h2>Background Information</h2>
+<p>
+</p>
+--->
+<hr noshade="noshade" size="1"><font color="#000000"
+ style="font-weight: bold;"><big style="color: rgb(51, 0, 153);">CoNLL-2005
+:</big> </font>&nbsp; &nbsp; &nbsp; <a href="spec.html">Description&amp;Goal</a>
+&nbsp; &nbsp; &nbsp; <a href="examples.html">Examples</a> &nbsp;
+&nbsp; &nbsp; <a href="soft.html">Data&amp;Software</a>
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="st05/st05.html">Systems&amp;Results</a>&nbsp;<a
+ href="http://www.cnts.ua.ac.be/conll"></a>
+<p> </p>
+<!--  Section  --><!--
+<h2>Background Information</h2>
+<p>
+</p>
+--->
+<hr noshade="noshade" size="1"><big><span
+ style="font-weight: bold; color: rgb(51, 0, 153);">CoNLL-2004 :</span></big><span
+ style="font-weight: bold;">&nbsp;</span> &nbsp;
+&nbsp; <a href="st04/st04.html"><span
+ style="text-decoration: underline;">Summary Page (data, systems &amp;
+results)</span></a><a href="st05/st05.html"></a><br>
+<p> </p>
+<!--  Section  --><!--
+<h2>Background Information</h2>
+<p>
+</p>
+--->
+<hr noshade="noshade" size="1"></div>
+<p><br>
+A <i>semantic role</i> in language is the relationship that a
+syntactic constituent has with a predicate. Typical semantic arguments
+include Agent, Patient, Instrument, etc. and also adjunctive arguments
+indicating Locative, Temporal, Manner, Cause, etc. aspects. Recognizing
+and labeling semantic arguments is a key task for answering "Who",
+"When", "What", "Where", "Why", etc. questions in Information
+Extraction, Question Answering, Summarization, and, in general, in all
+NLP tasks in which some kind of semantic interpretation is needed. </p>
+<p> The following sentence, taken from the PropBank corpus, exemplifies
+the annotation of semantic roles: </p>
+<blockquote> [<sub>A0</sub> <font color="#0000ff">He</font> ] [<sub>AM-MOD</sub>
+  <font color="#0000ff">would</font> ] [<sub>AM-NEG</sub> <font
+ color="#0000ff"> n't</font> ] [<sub>V</sub> <b>accept</b> ] [<sub>A1</sub>
+  <font color="#0000ff"> anything of value</font> ] from [<sub>A2</sub>
+  <font color="#0000ff">
+those he was writing about</font> ] . </blockquote>
+Here, the roles for the predicate <b>accept</b> (that is, the <i>roleset</i>
+of the predicate) are defined in the PropBank Frames scheme as:
+<blockquote> <b>V: </b>verb<br>
+  <b>A0:</b> acceptor <br>
+  <b>A1:</b> thing accepted <br>
+  <b>A2:</b> accepted-from <br>
+  <b>A3:</b> attribute <br>
+  <b>AM-MOD:</b> modal <br>
+  <b>AM-NEG:</b> negation </blockquote>
+<p>The Shared Tasks of CoNLL-2004 and CoNLL-2005 concerned the
+recognition of semantic roles for the English
+language, based on PropBank predicate-argument structures.
+Given a sentence, the task consists of analyzing the propositions
+expressed
+by some target verbs of the sentence. In particular, for each target
+verb
+all the constituents in the sentence which fill a semantic role of the
+verb
+have to be recognized. We will refer to this problem as Semantic Role
+Labeling
+(SRL).</p>
+<p>As in all previous CoNLL shared tasks, the general goal is to come
+forward with <b>machine learning</b> strategies which address the
+proposed
+NLP problem, SRL in the present case. In CoNLL-2004, the goal was to
+develop
+SRL systems based on partial parsing information (see the main
+conclusions
+and system descriptions and evaluations <a href="st04/st04.html">here</a>).
+In CoNLL-2005, the main focus of interest was to
+increase
+the amount of syntactic and semantic input information, aiming to boost
+the performance of machine learning systems on the SRL task. Following
+earlier editions of
+the shared task, the input information contained several levels of
+annotation
+apart from the role labeling information: words, POS tags, chunks,
+clauses,
+named entities, and parse trees. All
+participants were suggested to propose novel learning architectures for
+better
+exploiting
+the data structures, relations and constraints of the problem.</p>
+<p>Compared to the shared task of CoNLL-2004, the novelties introduced
+in the 2005 edition were:</p>
+<ol>
+  <li>The training corpus was substantially enlarged. This allows
+to test the scalability of learning-based SRL systems to big datasets
+and
+compute learning curves to see how much data is necessary to train.</li>
+  <li>Aiming at evaluating the contribution of full parsing in SRL, the
+complete syntactic trees given by several alternative parsers was
+provided
+as input information for the task.</li>
+  <li>In order to test the robustness of the presented systems, a
+cross-corpora
+evaluation was performed using fresh test sets from corpora other
+than
+the one used for training.</li>
+  <li>Though encouraged, taking part in the closed setting was no
+longer
+obligatory. Thus, teams developing systems that rely intrinsically on
+external
+resources will be able to participate. However, no team contributed to
+the open challenge.<br>
+  </li>
+</ol>
+<br>
+In both editions, participant systems were evaluated in two different
+categories
+depending on whether they use the information strictly contained in the
+training
+data (closed challenge) or they make use of external sources of
+information
+and/or tools (open challenge). The closed setting allows to compare
+systems
+under strict conditions, while the open setting aims at exploring the
+contributions
+of other sources of information and the limits of the current
+learning-based
+systems on the SRL task. Participants in the open challenge were
+encouraged
+to propose novel ideas for using rich semantic information, e.g.,
+verbnet,
+wordnet and other lexico-semantic resources, word sense disambiguation,
+etc.
+The use of unlabeled examples might be also considered. No system was
+presented at the open challenge of the tasks.<br>
+<br>
+<br>
+Take a look at the specification of the CoNLL-2005 task at the <a
+ href="spec.html">
+Description&amp;Goal</a> page.<br>
+The data and software of CoNLL-2005 is available at the <a
+ href="soft.html">
+Data&amp;Software</a> page.<br>
+The <a href="st05/st05.html">Systems&amp;Results</a> page contains the
+evaluation results of the 19 systems presented in CoNLL-2005, as well
+as the description papers of the systems, the introduction paper of the
+task, and the talks presented at the Shared Task session. <br>
+The <a href="st04/st04.html">CoNLL-2004 Shared Task</a> page overviews
+the 2004 edition of the SRL task, and includes all materials (data,
+software, results, papers and talks).<br>
+<br>
+<hr noshade="noshade" size="1">
+<h2>Organization</h2>
+<span style="font-weight: bold;">Shared Task Chairs: </span><br>
+<div style="margin-left: 40px;"><a
+ href="http://www.lsi.upc.edu/%7Ecarreras"> Xavier Carreras</a> and <a
+ href="http://www.lsi.upc.edu/%7Elluism">Llu&iacute;s M&agrave;rquez</a>
+<br>
+<br>
+<span style="text-decoration: underline;">srlconll &lt;at&gt;
+lsi.upc.edu</span><br>
+<br>
+TALP Research Center<br>
+Technical University of Catalonia (UPC) <br>
+</div>
+<b><!---
+Contact address</b>:<b> <br>
+
+</b>
+<div style="margin-left: 40px;"> <a href="mailto:conll04st@lsi.upc.es">conll04st@lsi.upc.es</a><br>
+</div>
+-->
+<br>
+</b>
+<hr size="1" noshade="noshade"> <span style="font-style: italic;">Last
+update: September 7, 2005. </span><span
+ style="text-decoration: underline;">Xavier Carreras</span><span
+ style="font-style: italic;">, </span><span
+ style="text-decoration: underline;"> Llu&iacute;s M&agrave;rquez</span><b><span
+ style="text-decoration: underline;"><br>
+<br>
+</span></b>
+</body>
+</html>
