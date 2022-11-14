@@ -5,11 +5,11 @@
 * For more information towards this project, please find it under README.md.
 
 ## Week 10
-- [ ] 1. Do the fourth (final) presentation
+- [ ] 1. Give my fourth (final) presentation
 - [ ] 2. Develop a rough plan for W23 1L
 
 ## Week 9
-- [ ] 1. Prepare for the fourth (final) presentation
+- [ ] 1. Prepare for my fourth (final) presentation
 - [ ] 2. Wrap up all the things in the project
 
 ## Week 8
