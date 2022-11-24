@@ -15,7 +15,7 @@ Multilingual Natural Language Processing, Tagging, Deep Learning, Multi-layer Ne
 
 1. README.md (this file): a broad picture of what this project deals with and what each file is used for.
 2. PROGRESS.md: a calendar that keeps track of the progress of this project.
-3. Textbook - NLP textbook.pdf: a classical textbook on NLP by Dr. Dan Jurafsky
+3. Textbook - NLP textbook.pdf: a classical textbook on NLP, by Dr. Dan Jurafsky
 4. Agenda - NLPCC2022 handbook.pdf: an agenda of NLPCC2022, an influential conference in the field of Mandarin NLP
 5. Publication - NLP from Scratch.pdf: Groundbreaking work on incorporating DL into NLP, by Dr. Ronan Collobert
 6. Publication - Deep Learning for Efficient Discriminative Parsing.pdf: Tightly related work with NLP from Scratch, by Dr. Ronan Collobert
@@ -25,17 +25,33 @@ Multilingual Natural Language Processing, Tagging, Deep Learning, Multi-layer Ne
 10. Benchmark - Semantic Role Labeling SRL.htm: Benchmark on Semantic Role Labeling.
 11. Benchmark - Syntactic Parsing PSG.pdf: Benchmark on Syntactic Parsing.
 12. NLP from Scratch_Peiyang Song.pptx: Slides for my third presentation.
-13. [stub]
+13. Note - Websites.docx: Lecture note for websites containing massive study resources (presenter: Prof. Phill Conrad; note taker: Peiyang Song).
+14. Note - AWS Zoom Meeting: Meeting record (presenter: James Woods; host: Prof. Phill Conrad; note taker: Peiyang Song).
+15. sanity-test-input.txt: Input file.
+18. sanity-test-output.txt: Output file.
+19. senna-linux64, senna-osx, senna-win32.exe: executable files for this project.
+20. Other .c & .h files: code for this project.
 
 ## Instruction for codes and applications
-[stub]
 
-## Reference
+Recommended steps:
+1. If you have yet to read through the descriptions for each file in this repo, you are highly recommended to go back and review this previous part first (No. 1).
+2. Great! Now you must have got a sense of how each file functions. Then, you are suggested to first run the executable files (No. 19) for a clear overview.
+3. If you are now interested in the tags that are labeled to the input text, you are encouraged to take a look at the underlying codes for each task (No. 20). If you are more curious about how this algorithm works on a deeper level, it would be good to look into the groundbreaking publication NLP from Scratch by Dr. Ronan Collobert (No. 5), on which this project is based.
+4. Alright. From either way you should already get some certain understanding on this project. Now, the benchmarks (No. 7 to No. 11) are available for a comparison between this work and previous traditional NLP ones, from which you will see how this work is superior and, as mentioned before, "groundbreaking."
+5. So far, you have traveled all through the central part of this project. Your next step is based on your own interest. If you are more interested in the field of NLP, it would be beneficial to follow the classical textbook b Dr. Dan Jurafsky (No. 3) and perhaps the video course from Stanford University (CS224N), which is not included in this repo but available on youtube. Otherwise, in case that the deep learning part fascinates you more, you may prefer to follow the book Neural Networks and Deep Learning by Dr. Michael Nielsen, which is not included in this repo but available on google.
+
+## Main reference
 
 1. Dr. Dan Jurafsky and Dr. James H. Martin, Speech and Language Processing (3rd ed. draft), NLP Research Group, Stanford University.
 2. Agenda and proceedings, *11th CCF International Conference on Natural Language Processing and Chinese Computing* (NLPCC2022).
-3. Dr. Ronan Collobert, “Natural Language Processing (almost) from Scratch,” *Journal of machine learning research : JMLR.* 12.ARTICLE (2011): n. pag. Print.
-4. [stub]
+3. Dr. Ronan Collobert, “Natural Language Processing (almost) from Scratch”, *Journal of machine learning research : JMLR.* 12.ARTICLE (2011): n. pag. Print.
+4. Dr. Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015.
+5. CS224N: NLP with Deep Learning, Prof. Christopher Manning, Department of Linguistics and Computer Science, Winter 2021.
+6. CS9: Immediate Python, Prof. Richert Wang, Department of Computer Science and CCS Computing, Winter 2021.
+7. Dr. Ronan Collobert, "Deep Learning for Efficient Discriminative Parsing", *International Conference on Artificial Intelligence and Statistics (AISTATS)*, 2011.
+
+Note: There are still many other valuable literatures that have benefited the author greatly but do not tightly related to this repo. Therefore, the author does not include them in the "Main reference" part here, but will certainly give credit to them in later works or personal repos. In other words, the reference above includes only materials that have directly helped the author during this project, and will probably help you understand elements in this repo better.
 
 ## Acknowledgement
 
