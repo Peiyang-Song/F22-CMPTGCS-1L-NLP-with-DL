@@ -31,6 +31,10 @@ Multilingual Natural Language Processing, Tagging, Deep Learning, Multi-layer Ne
 18. sanity-test-output.txt: Output file.
 19. senna-linux64, senna-osx, senna-win32.exe: executable files for this project.
 20. Other .c & .h files: code for this project.
+21. data/: training and test data (natural language).
+22. embeddings/: trained over natural languages on wikipedia for two months.
+23. hash/: hash data for this project.
+24. Final presentation/: files related to the fourth (final) presentation, including slides, recordings, images, etc.
 
 ## Instruction for codes and applications
 
@@ -40,6 +44,7 @@ Recommended steps:
 3. If you are now interested in the tags that are labeled to the input text, you are encouraged to take a look at the underlying codes for each task (No. 20). Or if you are more curious about how this algorithm works on a deeper level, it would be good to look into the groundbreaking publication NLP from Scratch by Dr. Ronan Collobert (No. 5), on which this project is based.
 4. All right. Either way, you should already get some certain understanding of this project. Now, the benchmarks (No. 7 to No. 11) are available for a comparison between this work and previous traditional NLP ones, from which you will see how this work is superior and, as mentioned before, "groundbreaking."
 5. So far, you have traveled all through this project's central parts. Your next step is based on your own interest. If you are more interested in the field of NLP, it would be beneficial to follow the classical textbook b Dr. Dan Jurafsky (No. 3) and perhaps the video course from Stanford University (CS224N), which is not included in this repo but available on youtube. Otherwise, in case the deep learning part fascinates you more, you may prefer to follow the book Neural Networks and Deep Learning by Dr. Michael Nielsen, which is not included in this repo but is available on google.
+6. Materials of my third and fourth presentations are both included in this repo. The third one concentrates mostly on the NLP parts, and the fourth one incorporates more DL parts. Hope those resources help. :)
 
 ## Main reference
 
